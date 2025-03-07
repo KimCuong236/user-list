@@ -12,6 +12,7 @@ body {
   padding: 100px;
 }
 .container {
+  max-width: 100%;
   margin: 50px auto;
   background: #fff;
   border-radius: 16px;
@@ -49,10 +50,12 @@ h1 {
       padding-left: 10px;
     }
   }
+
   .menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     li {
       list-style: none;
       padding: 16px;
